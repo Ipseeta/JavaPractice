@@ -3,7 +3,7 @@ package string;
 public class StringPermutation {
 
 	public static void main(String[] args) {
-		perm("ABC");
+		perm("123");
 	}
 
 	private static void perm(String str){
@@ -21,5 +21,4 @@ public class StringPermutation {
 			}
 		}
 	}
-
 }
