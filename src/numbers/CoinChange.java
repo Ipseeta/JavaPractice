@@ -9,7 +9,7 @@ Explanation: there are four ways to make up the amount:
 5=1+1+1+1+1
  */
 public class CoinChange {
-	public int change(int amount, int[] coins) {
+	private int change(int amount, int[] coins) {
 		int[] dp = new int[amount + 1];
 		dp[0] = 1;
 		for (int coin : coins) {
@@ -18,5 +18,9 @@ public class CoinChange {
 			}
 		}
 		return dp[amount];
+	}
+	public static void main(String args[]){
+		CoinChange cc = new CoinChange();
+		System.out.print(cc.change(5, new int[]{1,2,5}));
 	}
 }
