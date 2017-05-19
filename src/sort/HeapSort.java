@@ -2,6 +2,10 @@ package sort;
 
 /**
  * Created by ipseeta on 5/19/17.
+ * Worst Case Time Complexity : O(n log n)
+ Best Case Time Complexity : O(n log n)
+ Average Time Complexity : O(n log n)
+ Space Complexity : O(n)
  */
 public class HeapSort {
 
